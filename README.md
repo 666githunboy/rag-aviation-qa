@@ -11,7 +11,7 @@
 
 ## 运行
 
-1. `pip install pypdf numpy openai`
+1. `pip install pypdf numpy openai fastapi uvicorn`
 2. 设置环境变量 `XFYUN_API_KEY`、`XFYUN_BASE_URL`
 3. 运行主脚本 `python rag_qa.py`
 
@@ -25,3 +25,10 @@
 ## 已知问题
 
 - 模型偶尔在资料外补充常识性描述，后续可加引用校验
+
+## API 使用
+
+启动服务：
+
+```bash
+uvicorn api:app --reload
