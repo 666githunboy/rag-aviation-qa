@@ -13,7 +13,7 @@
 
 1. `pip install pypdf numpy openai`
 2. 设置环境变量 `XFYUN_API_KEY`、`XFYUN_BASE_URL`
-3. 运行主脚本
+3. 运行主脚本 `python rag_qa.py`
 
 ## 关键设计
 
